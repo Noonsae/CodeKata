@@ -8,11 +8,7 @@ function solution(n) {
   
   const x = n ** 0.5;
 
-  if (x === parseInt(x)) {
-    return (x + 1) * (x + 1);
-  } else {
-    return -1;
-  }
+  return (x === parseInt(x)) ? (x+1) * (x+1) : -1;
 }
 
 // 사용 예시
